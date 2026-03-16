@@ -1,0 +1,43 @@
+# =============================================================
+# .gitignore — Algorithmic Trading Project
+# =============================================================
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual environments ──
+venv/
+env/
+.venv/
+.env/
+
+# ── IDE / editor ──
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Jupyter notebooks ──
+.ipynb_checkpoints/
+
+# ── Pipeline outputs (regeneratable) ──
+outputs/artefacts/*.csv
+outputs/artefacts/*.pkl
+outputs/plots/*.png
+
+# ── Raw data (users must download from Kaggle) ──
+data/raw/*.csv
+
+# ── OS files ──
+.DS_Store
+*.log
